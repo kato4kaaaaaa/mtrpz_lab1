@@ -99,27 +99,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-$ python equation_solver.py
-Starting interactive mode.
-a = 2
-b = 1
-c = -3
-Equation is: (2.0) x^2 + (1.0) x + (-3.0) = 0
-There are 2 roots
-x1 = -1.5
-x2 = 1.0
-
-Starting interactive mode.
-a = invalid
-Error. Expected a valid real number, got invalid instead
-a = 0
-Error. Expected a valid real number (not zero for 'a'), got 0.0 instead
-a = 1
-b = 0
-c = 9
-Equation is: (1.0) x^2 + (0.0) x + (9.0) = 0
-There are 0 roots
-
 def non_interactive_mode(filepath):
     """Обробляє неінтерактивний режим роботи програми."""
     try:
