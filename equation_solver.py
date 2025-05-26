@@ -71,7 +71,7 @@ def print_solution(a, b, c, num_roots, x1, x2):
 
 def interactive_mode():
     """Обробляє інтерактивний режим роботи програми."""
-    print("Starting interactive mode.") # Допоміжне повідомлення, можна прибрати
+    print("Interactive mode started.") # Допоміжне повідомлення, можна прибрати
     
     # Отримання коефіцієнтів
     # Для 'a' буде використовуватися цикл у get_float_input,
