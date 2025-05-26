@@ -146,4 +146,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-print("Test change for revert") # Тестовий рядок для реверту
+
