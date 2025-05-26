@@ -83,22 +83,6 @@ def interactive_mode():
     num_roots, x1, x2 = solve_quadratic_equation(a, b, c)
     print_solution(a, b, c, num_roots, x1, x2)
 
-def main():
-    args = sys.argv
-    if len(args) == 1:
-        interactive_mode()
-    elif len(args) == 2:
-        # Це буде неінтерактивний режим, реалізую пізніше
-        filepath = args[1]
-        print(f"Non-interactive mode requested with file: {filepath}") # Заглушка
-        # non_interactive_mode(filepath)
-        pass # Поки що заглушка
-    else:
-        print("Usage: ./equation_solver.py [filepath]")
-        sys.exit(1)
-
-if __name__ == "__main__":
-    main()
 def non_interactive_mode(filepath):
     """Обробляє неінтерактивний режим роботи програми."""
     try:
